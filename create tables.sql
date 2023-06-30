@@ -1,3 +1,9 @@
+-- SCHEMA: humanitarianOrg
+
+-- DROP SCHEMA IF EXISTS "humanitarianOrg" ;
+
+CREATE SCHEMA IF NOT EXISTS "humanitarianOrg"
+    AUTHORIZATION postgres;
 
 CREATE TABLE IF NOT EXISTS "humanitarianOrg".account (
     accountid        numeric(8) NOT NULL,
